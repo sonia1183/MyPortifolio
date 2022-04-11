@@ -182,24 +182,23 @@ button:hover a{
 	overflow: hidden;
 	text-align: center;
 }
-.card i{
-	font-size: 50px;
-	display: block;
-	text-align: center;
+.card img{
 	margin: 25px 0px;
-	color: #ffff00;
 
 }
 h5{
 	color: white;
 	font-size: 23px;
-	margin-bottom: 15px;
+	margin-bottom: 10px;
 }
 .pra p{
 	color: #fcfc;
-	font-size: 16px;
-	line-height: 40px;
+	font-size: 12px;
+	line-height: 20px;
 	margin-bottom: 25px;
+}
+.pra p .small-letter{
+	font-size: 9px;
 }
 .card .button{
 	background-color:#ffff00;
@@ -210,6 +209,7 @@ h5{
 	padding: 9px 22px;
 	border-radius: 30px;
 	transition: .4s; 
+	line-height: 40px;
 }
 .card .button:hover{
 	background-color: transparent;
@@ -251,7 +251,7 @@ h5{
 .button-list{
 	display: flex;
 	flex-direction:row;
-	justify-content: space-evenly;
+	justify-content:space-between;
 }
 .button-list a{
 	margin-left: 20px;
@@ -278,6 +278,10 @@ footer p:nth-child(2){
 	width: 500px;
 	text-align: center;
 	line-height: 26px;
+}
+footer p:nth-child(2) i{
+	color: white;
+	font-size: 22px;
 }
 .social{
 	display: flex;
